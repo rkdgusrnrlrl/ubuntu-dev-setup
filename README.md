@@ -56,7 +56,7 @@
 
 - 하지만 불편하다 아래의 방법으로 해결 할 수 있다.
 
-  - **sudo 없이 사용하기 **
+  - **sudo 없이 사용하기**
 
   ```bash
   $ sudo usermod -aG docker $USER
