@@ -69,3 +69,5 @@ USB  부분 에서 막혔는데, `error: zlib decompression failed, data probabl
 ## Python3
 
 - 기본!!!
+- `venv`로 가상환경 세팅시 `ModuleNotFoundError: No module named 'distutils.core'` 이슈 발생함
+  - `sudo apt-get install python3-distutils` 를 쓰면 해결
