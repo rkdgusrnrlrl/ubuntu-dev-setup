@@ -71,3 +71,8 @@ USB  부분 에서 막혔는데, `error: zlib decompression failed, data probabl
 - 기본!!!
 - `venv`로 가상환경 세팅시 `ModuleNotFoundError: No module named 'distutils.core'` 이슈 발생함
   - `sudo apt-get install python3-distutils` 를 쓰면 해결
+- pycharm 을 쓰면 디버그 할 때 속도를 위해 cython  필요 함
+  - 밑에 팝업이 뜨는 데 `install`을 하면 `error command 'x86_64-linux-gnu-gcc' failed with exit status 1`  에러가 뜸
+  - `sudo apt-get install python-dev` 하면됨 
+  - python3 이 깔려 있어서 `sudo apt-get install python3-dev` 을 해야 될 줄 알고 미리 시도해보았는데, 안되서 위의 명령어 실행으로 해결
+
