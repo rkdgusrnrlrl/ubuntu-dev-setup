@@ -76,3 +76,5 @@ USB  부분 에서 막혔는데, `error: zlib decompression failed, data probabl
   - `sudo apt-get install python-dev` 하면됨 
   - python3 이 깔려 있어서 `sudo apt-get install python3-dev` 을 해야 될 줄 알고 미리 시도해보았는데, 안되서 위의 명령어 실행으로 해결
 
+## Docker 설치
+- [우분터 17 Docker 설치](https://github.com/rkdgusrnrlrl/ubuntu-dev-setup/blob/master/ubuntu_17.md#docker)를 참조 해 진행 하면 됨
